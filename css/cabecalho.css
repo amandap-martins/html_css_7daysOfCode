@@ -1,0 +1,26 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 7rem 0;
+}
+
+.cabecalho__span {
+    color: var(--vinho);
+    font-weight: var(--peso-destaque);
+    font-size: 1rem;
+}
+
+.cabecalho__destaque {
+    color: var(--azul-ciano);
+    font-weight: var(--peso-destaque);
+    font-size: 2.5rem;
+}
+
+.cabecalho__conteudo {
+    text-align: center;
+    max-width: 50%;
+    color: var(--cinza-claro);
+    line-height: 1.5rem;
+}

@@ -1,0 +1,36 @@
+.vagas-container {
+    padding: 2rem 0;
+}
+
+.vaga-span {
+    color: var(--azul-ciano);
+    font-weight: var(--peso-medio);
+    margin-left: 23.8%;
+}
+
+.vaga {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 1px solid var(--borda-card);
+    border-radius: .5rem;
+    padding: 1rem;
+    max-width: 50%;
+    margin: 1rem auto;
+}
+
+.titulo-vaga {
+    color: var(--azul-ciano);
+    font-weight: var(--peso-medio);
+    font-size: .95rem;
+}
+
+.informacoes {
+    color: var(--cinza-claro);
+    font-weight: var(--peso-medio);
+    font-size: .75rem;
+}
+
+.informacoes--fullTime {
+    margin-right: 1rem;
+}

@@ -1,0 +1,25 @@
+@import url(./botoes.css);
+@import url(./navegacao.css);
+
+:root {
+    --cinza-claro: #667085;
+    --vinho: #8E2424;
+    --fundo-destaques: rgba(142, 36, 36, 0.05);
+    --azul-ciano: #101828;
+    --branco: #FFFFFF;
+    --borda-card: #EAECF0;
+    --copyright-color: #98A2B3;
+    --background-footer: #F9FAFB;
+    --borda-input: #D0D5DD;
+
+    --texto-corpo: 'Inter', sans-serif;
+
+    --peso-destaque: 600;
+    --peso-normal: 400;
+    --peso-medio: 500;
+}
+
+body {
+    width: 100%;
+    font-family: var(--texto-corpo);
+}

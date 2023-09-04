@@ -1,0 +1,23 @@
+.procurando-vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 9rem;
+    gap: 2rem;
+}
+
+.procurando-vagas__titulo {
+    color: var(--azul-ciano);
+    font-weight: var(--peso-destaque);
+    font-size: 1.75rem;
+}
+
+.procurando-vagas__conteudo {
+    color: var(--cinza-claro);
+    font-weight: var(--peso-normal);
+    font-size: 1.15rem;
+}
+
+.procurando-vagas__imagem {
+   width: 80%;
+}

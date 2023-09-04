@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem;
+    background-color: var(--background-footer);
+}
+
+.footer__titulo {
+    font-weight: var(--peso-destaque);
+    font-size: 2rem;
+    color: var(--azul-ciano);
+}
+
+.footer__mensagem {
+    font-weight: var(--peso-normal);
+    color: var(--cinza-claro);
+    font-size: 1.15rem;
+}
+
+.footer__form {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__input {
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    width: 21rem;
+    height: 1.3rem;
+    border: 1px solid var(--borda-input);
+}
+
+.footer__copyright {
+    color: var(--cinza-claro);
+    font-size: .85rem;
+}

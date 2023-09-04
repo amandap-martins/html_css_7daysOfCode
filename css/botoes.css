@@ -1,0 +1,32 @@
+.botao {
+    border-radius: 0.5rem;
+    font-weight: var(--peso-medio);
+    background: none;
+    border: none;
+    color: var(--cinza-claro);
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.botao--entrar {
+    line-height: 24px;
+}
+
+.botao--cadastrar {
+    background-color: var(--vinho);
+    color: var(--branco);
+}
+
+.botao--vagas {
+    color: var(--vinho);
+    background-color: var(--fundo-destaques);
+    padding: .25rem .75rem;
+    border-radius: 0.8rem;
+}
+
+.botao-footer {
+    border-radius: 0.5rem;
+    background-color: var(--vinho);
+    color: var(--branco);
+}
